@@ -1,0 +1,59 @@
+{
+    "frames": {
+      "soldier_idle_0": { "frame": { "x": 0, "y": 0, "w": 100, "h": 100 } },
+      "soldier_idle_1": { "frame": { "x": 100, "y": 0, "w": 100, "h": 100 } },
+      "soldier_idle_2": { "frame": { "x": 200, "y": 0, "w": 100, "h": 100 } },
+      "soldier_idle_3": { "frame": { "x": 300, "y": 0, "w": 100, "h": 100 } },
+      "soldier_idle_4": { "frame": { "x": 400, "y": 0, "w": 100, "h": 100 } },
+      "soldier_idle_5": { "frame": { "x": 500, "y": 0, "w": 100, "h": 100 } },
+  
+      "soldier_walk_0": { "frame": { "x": 0, "y": 100, "w": 100, "h": 100 } },
+      "soldier_walk_1": { "frame": { "x": 100, "y": 100, "w": 100, "h": 100 } },
+      "soldier_walk_2": { "frame": { "x": 200, "y": 100, "w": 100, "h": 100 } },
+      "soldier_walk_3": { "frame": { "x": 300, "y": 100, "w": 100, "h": 100 } },
+      "soldier_walk_4": { "frame": { "x": 400, "y": 100, "w": 100, "h": 100 } },
+      "soldier_walk_5": { "frame": { "x": 500, "y": 100, "w": 100, "h": 100 } },
+      "soldier_walk_6": { "frame": { "x": 600, "y": 100, "w": 100, "h": 100 } },
+      "soldier_walk_7": { "frame": { "x": 700, "y": 100, "w": 100, "h": 100 } },
+
+      "soldier_attack1_0": { "frame": { "x": 0, "y": 200, "w": 100, "h": 100 } },
+      "soldier_attack1_1": { "frame": { "x": 100, "y": 200, "w": 100, "h": 100 } },
+      "soldier_attack1_2": { "frame": { "x": 200, "y": 200, "w": 100, "h": 100 } },
+      "soldier_attack1_3": { "frame": { "x": 300, "y": 200, "w": 100, "h": 100 } },
+      "soldier_attack1_4": { "frame": { "x": 400, "y": 200, "w": 100, "h": 100 } },
+      "soldier_attack1_5": { "frame": { "x": 500, "y": 200, "w": 100, "h": 100 } },
+  
+      "soldier_attack2_0": { "frame": { "x": 0, "y": 300, "w": 100, "h": 100 } },
+      "soldier_attack2_1": { "frame": { "x": 100, "y": 300, "w": 100, "h": 100 } },
+      "soldier_attack2_2": { "frame": { "x": 200, "y": 300, "w": 100, "h": 100 } },
+      "soldier_attack2_3": { "frame": { "x": 300, "y": 300, "w": 100, "h": 100 } },
+      "soldier_attack2_4": { "frame": { "x": 400, "y": 300, "w": 100, "h": 100 } },
+      "soldier_attack2_5": { "frame": { "x": 500, "y": 300, "w": 100, "h": 100 } },
+  
+      "soldier_attack3_0": { "frame": { "x": 0, "y": 400, "w": 100, "h": 100 } },
+      "soldier_attack3_1": { "frame": { "x": 100, "y": 400, "w": 100, "h": 100 } },
+      "soldier_attack3_2": { "frame": { "x": 200, "y": 400, "w": 100, "h": 100 } },
+      "soldier_attack3_3": { "frame": { "x": 300, "y": 400, "w": 100, "h": 100 } },
+      "soldier_attack3_4": { "frame": { "x": 400, "y": 400, "w": 100, "h": 100 } },
+      "soldier_attack3_5": { "frame": { "x": 500, "y": 400, "w": 100, "h": 100 } },
+      "soldier_attack3_6": { "frame": { "x": 600, "y": 400, "w": 100, "h": 100 } },
+      "soldier_attack3_7": { "frame": { "x": 700, "y": 400, "w": 100, "h": 100 } },
+      "soldier_attack3_8": { "frame": { "x": 800, "y": 400, "w": 100, "h": 100 } },
+  
+      "soldier_damage_0": { "frame": { "x": 0, "y": 500, "w": 100, "h": 100 } },
+      "soldier_damage_1": { "frame": { "x": 100, "y": 500, "w": 100, "h": 100 } },
+      "soldier_damage_2": { "frame": { "x": 200, "y": 500, "w": 100, "h": 100 } },
+      "soldier_damage_3": { "frame": { "x": 300, "y": 500, "w": 100, "h": 100 } },
+  
+      "soldier_die_0": { "frame": { "x": 0, "y": 600, "w": 100, "h": 100 } },
+      "soldier_die_1": { "frame": { "x": 100, "y": 600, "w": 100, "h": 100 } },
+      "soldier_die_2": { "frame": { "x": 200, "y": 600, "w": 100, "h": 100 } },
+      "soldier_die_3": { "frame": { "x": 300, "y": 600, "w": 100, "h": 100 } }
+    },
+    "meta": {
+      "image": "soldier.png",
+      "size": { "w": 900, "h": 700 },
+      "scale": "1"
+    }
+  }
+  
