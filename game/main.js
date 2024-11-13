@@ -1,5 +1,5 @@
-/* scenes is like a map */
-import MainScene from "./MainScene.js";
+import LoginScene from "./scenes/LoginScene.js";
+import MainScene from "./scenes/MainScene.js";
 
 const config = {
     width: window.innerWidth, 
@@ -7,7 +7,7 @@ const config = {
     backgroundColor: '#696f6f',
     type: Phaser.AUTO,
     parent: 'Kingdom',
-    scene: [MainScene],
+    scene: [LoginScene, MainScene],
     scale: {
         mode: Phaser.Scale.RESIZE,
         autoCenter: Phaser.Scale.CENTER_BOTH, // centers the game in screen
@@ -19,8 +19,10 @@ const config = {
             debug: false,
             gravity: { y: 0 },
         }
+    },
+    dom: {
+        createContainer: true
     }
 }
 
-/* initializing game */
-const game = new Phaser.Game(config);
+new Phaser.Game(config);
