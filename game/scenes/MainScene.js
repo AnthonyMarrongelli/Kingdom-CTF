@@ -40,7 +40,7 @@ function createAnimations(scene) {
 class Player {
     constructor(scene, x, y, texture, name, options = {}) {
         
-        this.sprite = scene.physics.add.sprite(x, y, texture, `${name}_idle_0`);
+        this.sprite = scene.physics.add.sprite(x, y, texture, `${texture}_idle_0`);
         this.sprite.setScale(5);
         this.sprite.setCollideWorldBounds(true);
 
@@ -117,9 +117,9 @@ class Player {
 }
 
 /* MainScene with animations and player management */
-export default class MainScene extends Phaser.Scene {
+class MainScene extends Phaser.Scene {
     constructor() {
-        super("MainScene");
+        super({ key: "MainScene" });
     }
 
     preload() {
@@ -129,6 +129,10 @@ export default class MainScene extends Phaser.Scene {
     }
 
     create() {
+
+        const token = this.game.registry.get('jwtToken');
+        console.log(token);
+
         /* Initializing all the animations */
         createAnimations(this);
 
@@ -163,3 +167,5 @@ export default class MainScene extends Phaser.Scene {
         this.player2.update(this.inputKeys2, speed);
     }
 }
+
+export default MainScene
