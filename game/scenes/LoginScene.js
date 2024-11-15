@@ -1,3 +1,11 @@
+/*
+
+WE WONT BE USING A SCENE FOR LOGIN/REGISTRATION
+WILL BE USING STOCK HTML/CSS/JS FOR IT, THEN PIVOT
+TO LOADING THE GAME WITH SESSION INFORMATION
+
+*/
+
 class LoginScene extends Phaser.Scene {
     constructor() {
         super({ key: 'LoginScene' });
